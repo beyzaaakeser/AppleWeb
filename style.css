@@ -1,0 +1,391 @@
+body{
+    margin: 0;
+    background-color: rgb(255,255,255);
+    font-family:'Roboto';
+}
+header{
+  opacity: 1;
+  animation: scroll-watcher linear;
+  animation-timeline: scroll();
+}
+@keyframes scroll-watcher{
+  to {opacity: 0;}
+}
+header{
+    text-align: center;    
+    padding: 12px;
+    background-color:#161617;
+    position: sticky;
+    top: 0;
+
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+header nav img{
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+}
+
+header nav a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(255 255 255 / 80%);
+    font-size: 12px;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+    padding-right: 25px;
+    margin-right: 20px;
+}
+
+main{
+    text-align: center;
+ 
+}
+
+.div15pro{
+    background-image: url("./img/hero_iphone15pro__i70z9oz3hj2i_largetall.jpg");
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.iphone15pro{
+    color: #f5f5f7;
+}
+
+.iphone15pro p{
+    color: #f5f5f7;
+    font-size: 25px;
+    margin: 10px;
+
+}
+
+.iphone15pro h2{
+    font-size: 48px;
+    margin: 0;
+    padding-top: 50px;
+}
+
+.linkler a{
+    color: #2997ff;
+    padding-left: 25px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.linkler a:hover{
+    text-decoration: underline;
+}
+
+.space{
+    width: 100vm;
+    height: 10px;
+    background-color:white;
+}
+
+.diviphone15{
+    background-image: url("./img/hero_iphone15_announce__uuemlcwczn6u_largetall.jpg");
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.iphone15 p{
+    color: #1d1d1f;
+    font-size: 25px;
+    margin: 10px;
+
+}
+
+.iphone15 h2{
+    font-size: 48px;
+    margin: 0;
+    padding-top: 50px;
+}
+
+.iwatch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 92vh; /* Eğer sayfanın tamamının yüksekliğini kullanmak istiyorsanız */
+    background-image: url("./img/hero_apple_watch_series_9__x5wo4ptz2giu_large.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .diviwatch {
+    text-align: center;
+  }
+  
+  .diviwatch h2,
+  .diviwatch p {
+    margin-bottom: 10px;
+    color: #f5f5f7;
+  }
+
+  .diviwatch h2{
+    font-size: 48px;
+  }
+  
+  .diviwatch .series{
+    font-size: 20px;
+    letter-spacing: 0.2rem;
+    margin-top: -5px;
+    padding-left: 5px;
+  }
+
+  .diviwatch p {
+    font-size: 28px;
+  }
+
+  .btn {
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    margin-bottom: 50px;
+    margin-left: 15px;
+    font-weight: 300;
+    font-size: 18px;
+  }
+
+  .btn1{
+    width: 180px;
+    margin-top: 10px;
+    height: 50px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    margin-bottom: 50px;
+    margin-left: 15px;
+    font-weight: 300;
+    font-size: 18px;
+  }
+
+  .btn:hover{
+    background-color: aliceblue;
+  }
+
+  .diviwatch h2 img{
+    width: 48px;
+    height: 48px;
+  }
+
+  .miniiwatch{
+    flex: 1;
+    width: 100vw;
+    height: 70vh;
+    margin: 0 7px 0 15px;
+    background-image: url("./img/promo_apple_watch_unity__casvx9ysh1le_small.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+  }
+
+  .miniiwatch h2{
+    color: #f5f5f7;
+    margin-bottom: 0;
+    margin-top: 30px;
+
+  }
+
+  .miniiwatch p{
+    padding-top: 0;
+    margin-top: 5px;
+    color: #f5f5f7;
+  }
+
+ .miniiwatch2{
+  flex: 1;
+  width: 70vw;
+  height: 70vh;
+  background-color: pink;
+  margin: 0 15px 0 7px;
+  background-image: url("./img/promo_apple_watch_ultra2_order__dyxqj5ia98om_large.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+ }
+
+  .miniiwatch h2 img{
+    width: 25px;
+    height: 25px;
+    
+  }
+  
+
+  .miniiwatch2 h2 img{
+    width: 25px;
+    height: 25px;
+    
+  }
+  .miniiwatch2 h2{
+    color: #161617;
+    margin-bottom: 0;
+    margin-top: 30px;
+
+  }
+
+
+  .miniiwatch2 p{
+    color: #161617;
+    font-weight: 500;
+  }
+
+  .miniiwatch2 .series2{
+    color: #FD7525;
+    font-weight: bold;
+    margin-top: 0;
+  }
+
+
+  .doubleiwatch{
+    display: flex;
+
+  }
+
+  .prolar{
+    display: flex;
+  }
+
+  .prolar h2 img{
+    width: 48px;
+    height: 48px;
+  }
+
+  .macbook{
+    flex: 1;
+    width: 100vw;
+    height: 70vh;
+    margin: 0 7px 0 15px;
+    background-image: url("./img/promo_mbp__ek7p477bkp6q_large.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+  }
+
+  .macbook h2{
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-top: 30px;
+  }
+
+  .macbook p{
+    color: #161617;
+    font-weight: 500;
+    padding-top: 0;
+    margin-top: 5px;
+  }
+
+  .airpods{
+    flex: 1;
+    width: 100vw;
+    height: 70vh;
+    margin: 0 7px 0 15px;
+    background-image: url("./img/promo_airpods_pro_order__d8xv36p4uwae_large.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+  }
+  .airpods h2{
+    color: #f5f5f7;
+    margin-bottom: 0;
+    margin-top: 30px;
+  }
+
+
+  .airpods p{
+    color: #f5f5f7;
+    font-weight: 500;
+    padding-top: 0;
+    margin-top: 5px;
+  }
+
+  .ipadler{
+    display: flex;
+  }
+
+  .ipadler h2 img{
+    width: 48px;
+    height: 48px;
+  }
+
+  .ipad{
+    flex: 1;
+    width: 100vw;
+    height: 70vh;
+    margin: 0 7px 0 15px;
+    background-image: url("./img/promo_ipad__fioegapg12qi_large.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .ipad h2{
+    color: #161617;
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-top: 30px;
+  }
+  .ipad p{
+    color: #161617;
+    font-weight: 500;
+    padding-top: 0;
+    margin-top: 5px;
+  }
+
+  .incair{
+    flex: 1;
+    width: 100vw;
+    height: 70vh;
+    margin: 0 7px 0 15px;
+    background-image: url("./img/promo_macbook_air_15_midnight__3zojl1nanrme_large.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+
+  .incair h2{
+    color: #161617;
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-top: 30px;
+  }
+
+  .incair p{
+    color: #161617;
+    font-weight: 500;
+    padding-top: 0;
+    margin-top: 5px;
+  }
+
+
+  .footer-main{
+    background-color: grey;
+    width: 100vw;
+    height: 60vh;
+  
+  }
