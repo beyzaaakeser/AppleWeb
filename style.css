@@ -164,6 +164,7 @@ main{
     margin-left: 15px;
     font-weight: 300;
     font-size: 18px;
+    cursor: pointer;
   }
 
   .btn1{
@@ -179,6 +180,7 @@ main{
     margin-left: 15px;
     font-weight: 300;
     font-size: 18px;
+    cursor: pointer;
   }
 
   .btn:hover{
@@ -389,3 +391,79 @@ main{
     height: 60vh;
   
   }
+
+
+.footer-main{
+  display: flex;
+  width: 100vw;
+  background-color: #a9adad;
+}
+
+
+
+ footer .questions {
+  font-size: 13px;
+  color: #4f4e4e;
+  text-align: center;
+  justify-content: center;
+  background-color: #F5F5F7;
+  padding-top: 30px;
+}
+
+
+.footer {
+  display: flex;
+  color: black;
+  justify-content: center;
+  background-color: #F5F5F7;
+  margin-top: 20px;
+
+}
+.footer .footer-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 70px;
+  color: #131313;
+  padding-top: 50px;
+}
+
+.footer-item span{
+  margin-top: 20px;
+  padding: 5px 0 10px 0;
+  font-size: 15px;
+  color: #4f4e4e;
+
+}
+
+
+ .footer a {
+  color: #4f4e4e;
+  font-size: 12px;
+  padding: 0;
+  font-family: 'Roboto',sans-serif;
+  text-decoration: none;
+  line-height: 1.3rem;
+  
+
+}
+
+.footer-info{
+  padding: 20px;
+
+  text-align: center;
+  background-color: #F5F5F7;
+}
+.footer-info a{
+
+  font-size: 15px;
+  text-align: center;
+  color: #707172;
+  align-items: center;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.footer-info a:hover{
+  text-decoration: underline;
+}
