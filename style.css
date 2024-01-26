@@ -7,6 +7,7 @@ header{
   opacity: 1;
   animation: scroll-watcher linear;
   animation-timeline: scroll();
+  -webkit-animation: scroll-watcher linear;
 }
 @keyframes scroll-watcher{
   to {opacity: 0;}
